@@ -7,7 +7,8 @@ max.samples <- 500      # Suggested range: 10 to 5000
 bootstrap.rows <- 1000   # Suggested range: 10 to 5000
 
 confidence.level = .95   # Suggested range: .5 to .99
-seed <- 1                # Suggested range: 1 to 100
+seed <- 3
+# Suggested range: 1 to 100
 
 tru.data <- sim.t(n=nsamples, df=df.true, seed=seed)
 h.likes = likes.t(tru.data, df=df.hyp)
