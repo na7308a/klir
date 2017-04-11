@@ -27,7 +27,7 @@ function(input, output) {
                "Seed"),
                
       
-      Value = as.character(c(input$integer, 
+      Value = as.character(c(input$Reyw, 
                              input$decimal,
                              paste(input$range, collapse=' '),
                              input$format,
